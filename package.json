@@ -1,0 +1,18 @@
+{
+  "name": "awesome-bst",
+  "version": "0.0.1",
+  "description": "binary search tree implementation in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "bst"
+  ],
+  "devDependencies": {
+    "mocha": "=1.13.0",
+    "chai":  "1.8.1"
+  },
+  "author": "justin j. moses",
+  "license": "BSD-2-Clause"
+}
