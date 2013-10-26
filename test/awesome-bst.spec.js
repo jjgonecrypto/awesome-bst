@@ -17,13 +17,14 @@ describe('BST', function() {
             bst.add(2);
             expect(bst.size()).to.equal(2);
         });
+        it('decrements as expected');
     });
 
     describe('From Array', function() { 
         
         it('takes array input', function() { 
             bst.loadFrom([12,4,5,19,3]);
-            //expect(bst.size()).to.equal(5);
+            expect(bst.size()).to.equal(5);
         });
 
     });
